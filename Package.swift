@@ -13,6 +13,6 @@ let package = Package(
     dependencies: [
         .Package(
             url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
-            majorVersion: 2, minor: 0)
+            majorVersion: 3, minor: 0)
     ]
 )
