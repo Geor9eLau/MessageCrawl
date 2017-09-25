@@ -38,17 +38,10 @@ let confData = [
             "name":"localhost",
             "port":8181,
             "routes":[
-                ["method":"get", "uri":"/", "handler":handler],
+                ["method":["get", "post"], "uri":"/", "handler":handler],
                 ["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
                  "documentRoot":"./webroot",
                  "allowResponseFilters":true]
-            ],
-            "filters":[
-                [
-                    "type":"response",
-                    "priority":"high",
-                    "name":PerfectHTTPServer.HTTPFilter.contentCompression,
-                    ]
             ]
         ]
     ]
