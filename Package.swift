@@ -9,10 +9,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyCardMessageCrawl",
+    name: "MessageCrawl",
     dependencies: [
         .Package(
-            url: "https://github.com/Geor9eLau/MessageCrawl.git",
-            majorVersion: 0)
+            url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
+            majorVersion: 2, minor: 0)
     ]
 )
