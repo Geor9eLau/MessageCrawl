@@ -13,6 +13,6 @@ let package = Package(
     dependencies: [
         .Package(
             url: "https://github.com/Geor9eLau/MessageCrawl.git",
-            majorVersion: 3)
+            majorVersion: 0)
     ]
 )
