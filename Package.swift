@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .Package(
             url: "https://github.com/Geor9eLau/MessageCrawl.git",
-            majorVersion: 10, minor: 0
+            majorVersion: 10
         )
     ]
 )
