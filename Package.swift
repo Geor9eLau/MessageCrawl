@@ -6,7 +6,6 @@
 //  Copyright © 2017年 George. All rights reserved.
 //
 
-import Foundation
 import PackageDescription
 
 let package = Package(
@@ -14,7 +13,6 @@ let package = Package(
     dependencies: [
         .Package(
             url: "https://github.com/Geor9eLau/MessageCrawl.git",
-            majorVersion: 10
-        )
+            majorVersion: 3)
     ]
 )
